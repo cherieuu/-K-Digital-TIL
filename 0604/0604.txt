@@ -1,0 +1,33 @@
+1. 프로젝트 폴더를 만든다 mkdir my_pjt
+2. cd my_pjt/
+3. touch .gitignore README.md
+4. 파이참에서 .gitigmore 파일 열기 
+5. 구글에서 gitignore 검색해서 첫번째 io 들어가기
+6. macOs Python Windows django pycham 입력하고 나오는 페이지 전체 복사해서 파이참의 ignore 파일에 입력하고 저장한다.
+7. open README.md 해서 리드미파일 채운다.
+8. git init
+9. git add .
+10. git commit -m 'first commit'
+11. .gitignore 파일이 수정되고 add . 하면 수정되었다고 보인다.
+
+12. 만약 touch a.txt 라는 파일을 만들고 이 파일을 터미널 내에서 수정하고 싶다고 하면  
+13. 터미널에 vim a.txt 누르면 터미널에 마우스/ 키보드 작동 안된다. 일단은
+14. command mode / edit mode 단축키가 따로 있다.
+15. 입력하고 싶으면 i 를 누른다. -> insert 모드가 되어야 입력이 가능하다. 
+16. 입력 다하고 esc 모드로 가서 command 모드로 들어간다.
+17. 저장을 하려면 (:+shift) :w 입력한다. 그럼 저장모드
+18. :q
+19. :wq 저장하고 꺼진다
+20. 내용 다 없에고 저장하고 끄고 싶으면 :q!
+21. ##### 커밋 이름 바꾸는 것 배우기  git commit --amend
+22. 파이참에서 커밋하는 법 : 커밋키 있음
+23. git breanch 실험
+24. git swithch 실험
+25. git checkout master
+
+26. git add .
+
+27. git commit -m 'start 실험'
+
+
+
