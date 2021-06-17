@@ -201,7 +201,6 @@ sns.displot(data=penguins, x="flipper_length_mm", hue="species", col="species")
   >
   > 변수.set_title('제목')
   >
-  > 
 
   ```python
   ax = plt.subplots()
@@ -322,7 +321,7 @@ tips.pandas_hy.ipynb
   
 
 - 주말 저녁에는 남성의 비율이 월등히 더 높고, 목요일 저녁은 남성의 비율과 여성의 비율이 비슷하다. 주말 저녁에는 남성전용 메뉴나 서비스를 구성하는 프로모션이 있으면 좋을 것 같다. 
-  ![image-20210617131452044](README.assets/image-20210617131452044.png)
+  ![image-20210618003854635](README.assets/image-20210618003854635.png)
 
 
 

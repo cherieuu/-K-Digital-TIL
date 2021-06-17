@@ -16,7 +16,7 @@
 6. 숫자 변수의 범주형 변수로 변환
 7. PC를 통한 차원 축소
 
-"The goal of a model is to provide "
+***The goal of a model is to privde a simple low-dimensional summary of dataset - Hadley Wickham***
 
 ------------------
 
