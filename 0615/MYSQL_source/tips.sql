@@ -1,34 +1,34 @@
 use tip;
-SELECT total_bill, tip, smoker, time
-FROM tips
-LIMIT 5;
 
-SELECT *, tip/total_bill as tip_rate
-FROM tips
-LIMIT 5;
+SELECT * FROM tips;
 
-SELECT *
-FROM tips
-WHERE time = 'Dinner'
-LIMIT 5;
 
-SELECT *
-FROM tips
-WHERE time = 'Dinner' AND tip > 5.00;
+INSERT INTO tips (total_bill, tip, sex, smoker, day, time, size)
+VALUES (3.07, 1, 'Female', 'Yes', 'Sat', 'Dinner', 1);
 
-SELECT *
-FROM tips
-WHERE size >= 5 OR total_bill > 45;
+INSERT INTO tips (total_bill, tip, sex, smoker, day, time, size)
+VALUES (3.07, 1, NULL, 'Yes', 'Sat', NULL, 1);
 
-SELECT day, AVG(tip), count(*)
-FROM tips
--- GROUP BY day ORDER by day asc; #오름차수
-GROUP BY day ORDER by day desc; #내림차순
+insert into tips (total_bill, tip, sex, smoker, day, time, size)
+values (4.59, 3.61, NULL, 'No', NULL, 'Dinner', '4');
 
--- select total_bill, AVG(tip), COUNT(*)
--- FROM tips
--- GROUP BY smoker, day ORDER BY smoker;
+select * from tips where tips.sex='null';
+insert into tips (total_bill, tip, sex, smoker, day, time, size)
+values (4.36, 2.61, NULL, 'No', 'Sat','Dinner', '4');
 
-SELECT smoker, day, AVG(tip), count(*) # total_bill
-FROM tips
-GROUP BY smoker, day order by smoker;
+select * from tips where tips.sex=NULL;
+
+DELETE from tips WHERE tips.sex = NULL;
+
+SELECT * FROM tips; 
+
+insert into tips (total_bill, tip, sex, smoker, day, time, size)
+values (4.36, 2.61, NULL, 'No', 'Sat','Dinner', '4');
+
+insert into tips (total_bill, tip, sex, smoker, day, time, size)
+values (2.36, 3.00, NULL, 'No', 'Sat','Dinner', '2');
+
+DELETE from tips where tips.sex = null;
+
+
+DELETE from tips where tips.day = Null;
