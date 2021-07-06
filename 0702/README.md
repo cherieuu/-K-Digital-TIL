@@ -4,7 +4,7 @@
 
 1. 일반적인 데이터 분석 방법론에서 분석 단계가 아닌것은? : `data compression`
 
-<img src="/Users/yoohwayoung/Library/Application Support/typora-user-images/image-20210705224104694.png" width=70%>
+![image-20210706211243247](image/image-20210706211243247.png)
 
 ​	파생변수를 만든다. 
 ​	파생변수를 어떻게 잘 만드냐에 따라 모델의 예측력이 달라진다. 
